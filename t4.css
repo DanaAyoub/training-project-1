@@ -1,8 +1,7 @@
 .one{
     display: inline-block;
     width:30%;
-    word-wrap: break-word;
- 
+
 }
 
 .two{
@@ -20,12 +19,13 @@
 }
 
 .five{
-    display: inline-block;
+    /*display: inline-block;*/
+    float: left;
     width:20%;
 }
 
 .six{
-    display: inline-block;
-    width:60%;
+    float: right;
+    width:70%;
 }
 
