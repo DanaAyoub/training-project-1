@@ -19,13 +19,11 @@
 }
 
 .five{
-    /*display: inline-block;*/
-    float: left;
-    width:20%;
+    display: inline-block;
+    width:19%;
 }
 
 .six{
-    float: right;
-    width:80%;
+    display: inline-block;
+    width:79%;
 }
-

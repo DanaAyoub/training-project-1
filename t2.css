@@ -1,8 +1,27 @@
-.circle{
+.one{
     width: 200px;
     height: 200px;
-    border-radius:50%;
+    border-radius: 50%;
     margin: 15% auto;
     background: blue;
-    position: relative;
+}
+.two{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+.three{
+     width: 200px;
+     height: 200px;
+     background-color: blue;
+     border-radius: 50%;
+     display: block;
+     margin: 0 auto;
+     position: absolute;
 }

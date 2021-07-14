@@ -2,14 +2,13 @@
     width:250px ; 
     height:250px; 
     background-color: rgb(248, 24, 24); 
-    position:(3,3,3)
+    
 }
 
 .blueBox{
     width:250px ;
     height:250px;
     background-color: rgb(4, 0, 255); 
-    position:(10,10,10); 
     margin-left: 40px; 
     margin-top: -210px;
 }
@@ -18,7 +17,57 @@
     width:250px ; 
     height:250px; 
     background-color: rgb(229, 255, 0); 
-    position:(20,20,20); 
     margin-left: 80px; 
     margin-top: -210px;
+}
+
+.red{
+    width:250px ; 
+    height:250px; 
+    background-color: rgb(248, 24, 24); 
+    
+}
+
+.blue{
+    width:250px ;
+    height:250px;
+    background-color: rgb(4, 0, 255); 
+    position:relative; 
+    left:50px; 
+    top:-200px;
+}
+
+.yellow{
+    width:250px ; 
+    height:250px; 
+    background-color: rgb(229, 255, 0); 
+    position:relative; 
+    left:100px; 
+    top:-400px;
+
+}
+.r{
+    width:250px ; 
+    height:250px; 
+    background-color: rgb(248, 24, 24); 
+    
+}
+
+.b{
+    width:250px ;
+    height:250px;
+    background-color: rgb(4, 0, 255); 
+    position:relative;
+    right:-50px; 
+    bottom:200px;
+}
+
+.y{
+    width:250px ; 
+    height:250px; 
+    background-color: rgb(229, 255, 0); 
+    position:relative;
+    right:-100px; 
+    bottom:400px;
+
 }
