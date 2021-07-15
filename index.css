@@ -1,71 +1,71 @@
 .redBox {
-    width:250px ; 
-    height:250px; 
+    width: 250px ; 
+    height: 250px; 
     background-color: rgb(248, 24, 24); 
 }
 
 .blueBox {
-    width:250px ;
-    height:250px;
+    width: 250px ;
+    height: 250px;
     background-color: rgb(4, 0, 255); 
     margin-left: 40px; 
     margin-top: -210px;
 }
 
 .yellowBox {
-    width:250px ; 
-    height:250px; 
+    width: 250px ; 
+    height: 250px; 
     background-color: rgb(229, 255, 0); 
     margin-left: 80px; 
     margin-top: -210px;
 }
 
 .red {
-    width:250px ; 
-    height:250px; 
+    width: 250px ; 
+    height: 250px; 
     background-color: rgb(248, 24, 24);  
 }
 
 .blue {
-    width:250px ;
-    height:250px;
+    width: 250px ;
+    height: 250px;
     background-color: rgb(4, 0, 255); 
-    position:relative; 
-    left:50px; 
-    top:-200px;
+    position: relative; 
+    left: 50px; 
+    top: -200px;
 }
 
 .yellow {
-    width:250px ; 
-    height:250px; 
+    width: 250px ; 
+    height: 250px; 
     background-color: rgb(229, 255, 0); 
-    position:relative; 
-    left:100px; 
-    top:-400px;
+    position: relative; 
+    left: 100px; 
+    top: -400px;
 }
 
 .r {
-    width:250px ; 
-    height:250px; 
+    width: 250px ; 
+    height: 250px; 
     background-color: rgb(248, 24, 24);   
 }
 
 .b {
-    width:250px ;
-    height:250px;
-    background-color: rgb(4, 0, 255); 
-    position:relative;
-    right:-50px; 
-    bottom:200px;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(4, 0, 255);
+    position: relative;
+    transform: translate(81px, -198px);
 }
 
 .y {
-    width:250px ; 
-    height:250px; 
+    width: 250px ; 
+    height: 250px; 
     background-color: rgb(229, 255, 0); 
-    position:relative;
-    right:-100px; 
-    bottom:200px;
+    position: relative;
+    right: -100px; 
+    bottom: 200px;
+    transform: translate(50px, -200px);
 }
 
 .cir1 {
@@ -81,9 +81,9 @@
     height: 200px;
     border-radius: 50%;
     background: blue;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+    position: absolute;
+    top: 2200px;
+    left: 375px;
 }
 
 .cir3 {
@@ -91,15 +91,13 @@
      height: 200px;
      background-color: blue;
      border-radius: 50%;
-     display: block;
-     margin: 0 auto;
-   
-}
+     transform: translate(370px,50px);
+    }
 
 .cir {
     width: 200px;
     height: 200px;
-    border-radius:50%;
+    border-radius: 50%;
     margin: 15% auto;
     background: linear-gradient(to bottom,red, violet,indigo,blue, aqua, green,orange,yellow,red);
     position: relative;
@@ -107,17 +105,17 @@
 
 .one {
     display: inline-block;
-    width:30%;
+    width: 30%;
 }
 
 .two {
     display: inline-block;
-    width:30%;
+    width: 30%;
 }
 
 .three {
     display: inline-block;
-    width:30%;
+    width :30%;
 }
 
 .four {
@@ -125,17 +123,17 @@
 }
 
 .five {
-    width:19%;
-    margin:0;
-    display:inline;
-    float:left;
+    width: 19%;
+    margin: 0;
+    display: inline;
+    float: left;
 }
 
 .six {
-    width:79%;
-    margin:0;
-    display:inline;
-    float:right;
+    width: 79%;
+    margin: 0;
+    display: inline;
+    float: right;
 }
 
 .profile {
@@ -145,15 +143,16 @@
     border-radius: 10px;
     text-align: center;
     padding: 20px 0;
+    clear:both;
 }
 
 .img {
     width: 200px;
     height: 200px;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
-.b {
+.button {
     background-color:cornflowerblue;
     width: 80px;
     height: 30px;
@@ -171,8 +170,8 @@
 
 .box {
     position: bottom;
-    width:400px ; 
-    height:100px; 
+    width: 400px ; 
+    height: 100px; 
     background-color:rgb(30, 30, 77);
     color: palevioletred;
 }
